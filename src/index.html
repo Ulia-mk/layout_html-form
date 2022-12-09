@@ -15,53 +15,54 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       autocomplete="off"
-      >
+    >
       <fieldset class="set">
         <legend>Personal information</legend>
         <label class="form-field">
         Surname:
-          <input type="text"
-          name="surname"
-          required
+          <input
+            type="text"
+            name="surname"
+            required
           >
         </label>
 
         <label class="form-field">
         Name:
           <input
-          type="text"
-          name="name"
+            type="text"
+            name="name"
           >
         </label>
 
         <label class="form-field">
         How old are You?
           <input
-          type="number"
-          name="age"
-          min="1"
-          max="100"
-          value="12"
-          required
+            type="number"
+            name="age"
+            min="1"
+            max="100"
+            value="12"
+            required
           >
         </label>
 
         <label class="form-field">
         Full date of birth:
           <input
-          type="date"
-          name="date of birth"
-          placeholder="mm / dd / yyyy"
-          required
+            type="date"
+            name="dateofbirth"
+            placeholder="mm / dd / yyyy"
+            required
           >
         </label>
 
         <label>
         I accept the term of the agreement
           <input
-          type="checkbox"
-          name="terms"
-          required
+            type="checkbox"
+            name="terms"
+            required
           >
         </label>
 
@@ -78,7 +79,8 @@
         </label>
         <label>
           Password:
-          <input type="password"
+          <input
+            type="password"
             name="password"
             minlength="5"
             maxlength="15"
@@ -112,21 +114,14 @@
 
         <label class="form-field">
           What is your favorite colore?
-          <input type="color" >
-          <!-- <select name="color">
-            <option value="#f00">Red</option>
-            <option value="#0f0">Green</option>
-            <option value="#00f">Blue</option>
-            <option value="#ff0">Yellow</option>
-            <option value="#000" selected>Black</option>
-          </select> -->
+          <input type="color">
         </label>
 
         <label class="form-field">
           What time do you go to bed?
           <input
             type="time"
-            name="time to bed"
+            name="timeToBed"
           >
         </label>
 
